@@ -1,0 +1,17 @@
+<div class="container">
+  <app-add (add)="add($event)"></app-add>
+  <div>
+  <h3>Default timer: </h3>
+  <app-default [addedValue]="addedValue"></app-default>
+  </div>
+  <div class="timers">
+    <div style="width: 50%">
+  <h3>OnPush timer: </h3>
+  <app-push [addedValue]="addedValue" ></app-push>
+    </div>
+    <div>
+  <h3>Change detection OnPush timer: </h3>
+  <app-detection [addedValue]="addedValue"></app-detection>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+  border: 2px solid #963a25;
+  width: 50%;
+  background: rgba(255, 248, 81, 0.49);
+  font-size: 25px;
+  text-align: center;
+}
+.timers {
+  display: flex;
+  margin-top: 44px;
+  align-items: baseline;
+  justify-content: center;
+}
+
